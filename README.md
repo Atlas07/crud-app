@@ -1,15 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-##History
+## History
 
 This repository contains the code for a CRUD application.
 
-##Features
+## Features
 
 * You can add, delete, update games
 * Uses React/Redux, NodeJs on backend, MongoDb as database
 
-##Installing
+## Installing
 
 Clone this repository. To install dependencies:
 
