@@ -1,9 +1,11 @@
 {
+  "homepage": "http://gitname.github.io/test/Atlas07",
   "name": "crud",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "classnames": "^2.2.5",
+    "gh-pages": "^1.2.0",
     "prop-types": "^15.6.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
@@ -17,7 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
